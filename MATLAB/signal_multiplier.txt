@@ -1,0 +1,25 @@
+% signal_multiplier.m
+%
+% This script graphs the multiplication of two sine waves of similar
+% frequency. The output should agree with the product to sum formula
+%
+%             sin(u)*sin(v) = 0.5*[ cos(u-v) - cos(u+v) ]
+%
+f1 = 1070;
+f2 = 1270;
+%
+w1 = 2*pi*f1;
+w2 = 2*pi*f2;
+Tgraph = 4 / abs(f1-f2);
+t = 0:(Tgraph/1000):Tgraph;
+v = sin(w1.*t).*sin(w2.*t);
+vdifference = 0.5 * cos((w1-w2).*t);
+vsum = (-0.5) * cos((w1+w2).*t);
+%
+plot (t, v, 'r', t, vdifference+2,'black', t, vsum+2, 'b');
+title ('Signal Multiplier');
+xlabel ('time (s)');
+ylabel ('voltage (normalized)');
+legend ('total signal', 'difference component', 'sum component');
+%
+% end signal_multiplier.m
