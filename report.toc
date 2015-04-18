@@ -1,2 +1,10 @@
 \contentsline {section}{\numberline {1}Objective}{1}
-\contentsline {section}{\numberline {2}Principle of Operation}{2}
+\contentsline {section}{\numberline {2}Principles of Operation}{2}
+\contentsline {section}{\numberline {3}Theory}{3}
+\contentsline {subsection}{\numberline {3.1}Texas Instruments LM656}{3}
+\contentsline {subsection}{\numberline {3.2}Signal Multiplier}{4}
+\contentsline {subsection}{\numberline {3.3}Voltage Controlled Oscillator}{4}
+\contentsline {subsection}{\numberline {3.4}Frequency Independent Amplifier}{4}
+\contentsline {subsection}{\numberline {3.5}Low-Pass Filter}{4}
+\contentsline {section}{\numberline {4}Design}{4}
+\contentsline {subsection}{\numberline {4.1}Texas Instruments LM656}{4}
