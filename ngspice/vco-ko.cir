@@ -1,0 +1,15 @@
+** vco.cir **
+*
+* For demonstrating Ko, the oscillator sensitivity to input voltage
+*
+Vcc cc gnd DC 6V
+Vee ee gnd DC -6V
+Vin in gnd PWL (0m -4V 20m 4V) 
+Xvco cc ee in out emitter_coupled_oscillator
+Rload out gnd 10k
+*
+.include vco.mod
+.control
+tran .1u 20m .1u
+plot v(out) v(in)
+*
