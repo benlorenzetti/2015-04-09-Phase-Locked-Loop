@@ -64,23 +64,21 @@ f_{0}=\frac{0.3}{R_{0}C_{0}}
 \label{f0-eq}
 \end{equation}
 
-The following figures provide more information about how the LM565 works.
-Figure \ref{565-block-diagram} is a modified version of the block diagram in figure \ref{pll-demodulator-block-diagram}, that more specifically reflects the LM565 design.
-Figures \ref{lm565-pinout} and \ref{lm565-schematic-diagram} are copied from Texas Instruments' LM565 datasheet.
-\ref{lm565-pinout} shows where to connect $R_{0}$, $C_{0}$, and other components; and \ref{lm565-schematic-diagram} shows an equivalent circuit.
-
-
-\subsection{Signal Multiplier}
+For more information about how the LM565 works, see the schematic diagram in section \ref{lm565-schematic-diagram}.
 
 \subsection{Voltage Controlled Oscillator}
+
+\subsection{Signal Multiplier}
 
 \subsection{Frequency Independent Amplifier}
 
 \subsection{Low-Pass Filter}
 
-\section{Design}
+\section{Design and Simulation}
 
-\subsection{Texas Instruments LM656}
+\subsection{Voltage Controlled Oscillator}
+
+\subsubsection{LM565 vs SPICE Model}
 
 For the timing resistor $R_{0}$, I decided to use $3k\Omega$ because it was available with 1\% tolerance.
 Using equation \ref{f0-eq}, the timing capacitors for 1 kHz, 10 kHz, and 100 kHz operating ranges should be
@@ -90,5 +88,42 @@ R_{0}=3k\Omega
 \begin{equation*}
 C_{0(1kHz)}=0.1uF \quad | \quad C_{0(10kHz)}=0.01uF \quad | \quad C_{0(100kHz)}=1,000pF
 \end{equation*}
+
+\subsubsection{Free Running Frequency $f_{0}$}
+
+\subsubsection{Oscillator Sensitivity $K_{O}$}
+
+\subsection{Signal Multiplier}
+
+\subsection{Frequency Independent Amplifier}
+
+\subsection{Low-Pass Filter}
+
+\subsection{Phase Detector Sensitivity $K_{D}$}
+
+\subsection{Loop Gain $K_{O}K_{D}$}
+
+\section{Results}
+
+\subsection{Free Running Frequency $f_{0}$}
+
+\subsection{Oscillator Sensitivity $K_{O}$}
+
+\subsection{FSK Demodulator}
+
+\section{Conclusions}
+
+\section{Appendices}
+
+\clearpage
+\subsection{LM565 Schematic Diagram}
+\label{lm565-schematic-diagram}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\textwidth]{diagrams/lm565-equivalent-circuit}
+	\caption{LM565 Schematic Diagram; taken from page 6 of the TI datasheet}
+	\label{lm565-equivalent-circuit}
+\end{figure}
 
 \end{document}
