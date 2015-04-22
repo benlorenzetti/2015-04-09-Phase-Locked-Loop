@@ -1,0 +1,16 @@
+** signal_multiplier.cir **
+*
+*	For testing signal_multiplier.mod
+*
+Vcc cc gnd DC 6V
+Vee ee gnd DC -6V
+Vx x1 gnd SIN (0V 20mV 1070Hz)
+Vy y1 gnd SIN (0V 20mV 1270Hz)
+*
+X1 cc ee x1 gnd y1 gnd out signal_multiplier
+Rload out gnd 100k
+*
+.include signal_multiplier.mod
+.control
+tran 1u 10ms 1u
+plot v(out)
