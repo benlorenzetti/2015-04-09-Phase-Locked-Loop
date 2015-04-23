@@ -11,28 +11,52 @@
 \newlabel{565-block-diagram}{{2}{3}}
 \newlabel{f0-eq}{{1}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Voltage Controlled Oscillator}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Signal Multiplier}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Frequency Independent Amplifier}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Low-Pass Filter}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Design and Simulation}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Voltage Controlled Oscillator}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}LM565 vs SPICE Model}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Free Running Frequency, $f_{0}$}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Oscillator Sensitivity, $K_{O}$}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Signal Multiplier}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Frequency Independent Amplifier}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Low-Pass Filter}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Phase Detector Sensitivity, $K_{D}$}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}PLL Loop Gain, $K_{O}K_{D}$}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}FSK Generator}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}FSK Demodulator}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Free Running Frequency, $f_{0}$}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Oscillator Sensitivity, $K_{O}$}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}FSK Demodulator}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Appendices}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}LM565 Schematic Diagram}{5}}
-\newlabel{lm565-schematic-diagram}{{7.1}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces LM565 Schematic Diagram; taken from page 6 of the TI datasheet\relax }}{5}}
-\newlabel{lm565-equivalent-circuit}{{3}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Role of the Voltage Controlled Oscillator in the LM565 PLL\relax }}{4}}
+\newlabel{565-block-diagram-vco}{{3}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Signal Multiplier}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Role of the Multiplier/Mixer/Phase Detector in the LM565 PLL\relax }}{5}}
+\newlabel{565-block-diagram-signal-multiplier}{{4}{5}}
+\newlabel{log-eq}{{2}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Transconductance Amplifier}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Role of the Transconductance Amplifier in the LM565 PLL\relax }}{6}}
+\newlabel{565-block-diagram-i-to-v-amplifier}{{5}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Generic Block Diagram of an Op-Amp Feedback Amplifier\relax }}{6}}
+\newlabel{feedback-voltage-amp}{{6}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Transconductance Feedback Amplifier Block Diagram\relax }}{7}}
+\newlabel{feedback-transconductance-amp}{{7}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Resistive Feedback Network\relax }}{7}}
+\newlabel{feedback-network}{{8}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Full h-Parameter Circuit (left) and its Unilateral Approximation (right)\relax }}{7}}
+\newlabel{h-parameter-equivalent-network}{{9}{7}}
+\newlabel{h21-eq}{{3}{7}}
+\newlabel{beta-design-eq}{{4}{7}}
+\newlabel{transconductance-gain-eq}{{5}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Transconductance Amplifier Module\relax }}{8}}
+\newlabel{transconductance-amplifier-circuit}{{10}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Low-Pass Filter}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Role of the Low Pass Filter in the LM565 PLL\relax }}{9}}
+\newlabel{565-block-diagram-low-pass-filter}{{11}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Design and Simulation}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Voltage Controlled Oscillator}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}LM565 vs SPICE Model}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Block Diagram for Phase Locked Loop SPICE Model\relax }}{10}}
+\newlabel{565-block-diagram-additional-c0-port}{{12}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Free Running Frequency, $f_{0}$}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Oscillator Sensitivity, $K_{O}$}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Signal Multiplier}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Transconductance Amplifier}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Low-Pass Filter}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Phase Detector Sensitivity, $K_{D}$}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}PLL Loop Gain, $K_{O}K_{D}$}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}FSK Generator}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}FSK Demodulator}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Free Running Frequency, $f_{0}$}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Oscillator Sensitivity, $K_{O}$}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}FSK Demodulator}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Appendices}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}LM565 Schematic Diagram}{11}}
+\newlabel{lm565-schematic-diagram}{{7.1}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces LM565 Schematic Diagram; taken from page 6 of the TI datasheet\relax }}{11}}
+\newlabel{lm565-equivalent-circuit}{{13}{11}}

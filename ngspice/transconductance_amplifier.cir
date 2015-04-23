@@ -1,0 +1,15 @@
+** transconductance_amplifier.cir **
+*
+*	For testing transconductance_amplifier.mod
+*
+Xamp in out gnd transconductance_amplifier
+Vin in gnd SIN (0V 10mV 1kHz)
+Rload out virtual_gnd 1k
+Vammeter virtual_gnd gnd 0
+*
+.include transconductance_amplifier.mod
+.control
+tran 1u 2ms 1u
+plot v(in) i(vammeter)
+*
+** transconductance_amplifier.cir **

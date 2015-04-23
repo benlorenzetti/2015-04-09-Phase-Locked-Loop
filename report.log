@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.13)  20 APR 2015 11:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.13)  22 APR 2015 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,41 +357,137 @@ Package pdftex.def Info: diagrams/565-block-diagram.png used on input line 50.
 (pdftex.def)             Requested size: 325.215pt x 181.40457pt.
  [3
 
- <./diagrams/565-block-diagram.png (PNG copy)>] [4]
-<diagrams/lm565-equivalent-circuit.png, id=35, 538.84512pt x 337.64545pt>
+ <./diagrams/565-block-diagram.png (PNG copy)>] <diagrams/565-block-diagram-vco
+.png, id=28, 577.6782pt x 320.397pt>
+File: diagrams/565-block-diagram-vco.png Graphic file (type png)
+
+<use diagrams/565-block-diagram-vco.png>
+Package pdftex.def Info: diagrams/565-block-diagram-vco.png used on input line 
+74.
+(pdftex.def)             Requested size: 325.215pt x 180.3793pt.
+ [4
+
+ <./diagrams/565-block-diagram-vco.png (PNG copy)>]
+<diagrams/565-block-diagram-signal-multiplier.png, id=32, 575.2692pt x 320.8788
+pt>
+File: diagrams/565-block-diagram-signal-multiplier.png Graphic file (type png)
+ <use diagrams/565-block-diagram-signal-multiplier.png>
+Package pdftex.def Info: diagrams/565-block-diagram-signal-multiplier.png used 
+on input line 84.
+(pdftex.def)             Requested size: 325.215pt x 181.40457pt.
+ [5
+
+ <./diagrams/565-block-diagram-signal-multiplier.png (PNG copy)>]
+<diagrams/565-block-diagram-i-to-v-amplifier.png, id=38, 575.2692pt x 320.8788p
+t>
+File: diagrams/565-block-diagram-i-to-v-amplifier.png Graphic file (type png)
+ <use diagrams/565-block-diagram-i-to-v-amplifier.png>
+Package pdftex.def Info: diagrams/565-block-diagram-i-to-v-amplifier.png used o
+n input line 111.
+(pdftex.def)             Requested size: 325.215pt x 181.40457pt.
+
+<diagrams/feedback-voltage-amp.png, id=39, 461.0826pt x 155.6214pt>
+File: diagrams/feedback-voltage-amp.png Graphic file (type png)
+
+<use diagrams/feedback-voltage-amp.png>
+Package pdftex.def Info: diagrams/feedback-voltage-amp.png used on input line 1
+26.
+(pdftex.def)             Requested size: 325.215pt x 109.7677pt.
+ [6
+
+ <./diagrams/565-block-diagram-i-to-v-amplifier.png (PNG copy)> <./diagrams/fee
+dback-voltage-amp.png (PNG copy)>]
+<diagrams/feedback-transconductance-amp.png, id=43, 464.4552pt x 150.8034pt>
+File: diagrams/feedback-transconductance-amp.png Graphic file (type png)
+
+<use diagrams/feedback-transconductance-amp.png>
+Package pdftex.def Info: diagrams/feedback-transconductance-amp.png used on inp
+ut line 139.
+(pdftex.def)             Requested size: 325.215pt x 105.59616pt.
+
+<diagrams/feedback-network.png, id=44, 255.8358pt x 97.3236pt>
+File: diagrams/feedback-network.png Graphic file (type png)
+
+<use diagrams/feedback-network.png>
+Package pdftex.def Info: diagrams/feedback-network.png used on input line 148.
+(pdftex.def)             Requested size: 151.76964pt x 57.73671pt.
+
+<diagrams/h-parameter-equivalent-network.png, id=45, 554.5518pt x 138.2766pt>
+File: diagrams/h-parameter-equivalent-network.png Graphic file (type png)
+
+<use diagrams/h-parameter-equivalent-network.png>
+Package pdftex.def Info: diagrams/h-parameter-equivalent-network.png used on in
+put line 181.
+(pdftex.def)             Requested size: 346.89732pt x 86.50072pt.
+ [7
+
+ <./diagrams/feedback-transconductance-amp.png (PNG copy)> <./diagrams/feedback
+-network.png> <./diagrams/h-parameter-equivalent-network.png (PNG copy)>]
+<diagrams/transconductance-amplifier-circuit.png, id=52, 249.0906pt x 129.1224p
+t>
+File: diagrams/transconductance-amplifier-circuit.png Graphic file (type png)
+ <use diagrams/transconductance-amplifier-circuit.png>
+Package pdftex.def Info: diagrams/transconductance-amplifier-circuit.png used o
+n input line 226.
+(pdftex.def)             Requested size: 173.44534pt x 89.9122pt.
+ [8 <./diagrams/transconductance-amplifier-circuit.png (PNG copy)>]
+<diagrams/565-block-diagram-low-pass-filter.png, id=56, 575.2692pt x 320.8788pt
+>
+File: diagrams/565-block-diagram-low-pass-filter.png Graphic file (type png)
+ <use diagrams/565-block-diagram-low-pass-filter.png>
+Package pdftex.def Info: diagrams/565-block-diagram-low-pass-filter.png used on
+ input line 237.
+(pdftex.def)             Requested size: 325.215pt x 181.40457pt.
+
+<diagrams/565-block-diagram-additional-c0-port.png, id=57, 577.6782pt x 320.397
+pt>
+File: diagrams/565-block-diagram-additional-c0-port.png Graphic file (type png)
+
+ <use diagrams/565-block-diagram-additional-c0-port.png>
+Package pdftex.def Info: diagrams/565-block-diagram-additional-c0-port.png used
+ on input line 278.
+(pdftex.def)             Requested size: 325.215pt x 180.3793pt.
+ [9
+
+ <./diagrams/565-block-diagram-low-pass-filter.png (PNG copy)>] [10 <./diagrams
+/565-block-diagram-additional-c0-port.png (PNG copy)>]
+<diagrams/lm565-equivalent-circuit.png, id=67, 538.84512pt x 337.64545pt>
 File: diagrams/lm565-equivalent-circuit.png Graphic file (type png)
 
 <use diagrams/lm565-equivalent-circuit.png>
 Package pdftex.def Info: diagrams/lm565-equivalent-circuit.png used on input li
-ne 128.
+ne 302.
 (pdftex.def)             Requested size: 433.62001pt x 271.7087pt.
- [5
+ [11
 
  <./diagrams/lm565-equivalent-circuit.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 4362 strings out of 495028
- 64754 string characters out of 6181497
- 137157 words of memory out of 5000000
- 7499 multiletter control sequences out of 15000+600000
+ 4426 strings out of 495028
+ 67310 string characters out of 6181497
+ 137276 words of memory out of 5000000
+ 7553 multiletter control sequences out of 15000+600000
  9023 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,38p,773b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,38p,773b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (7 pages, 1759426 bytes).
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on report.pdf (13 pages, 2257205 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
